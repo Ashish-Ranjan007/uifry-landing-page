@@ -4,7 +4,7 @@ import { ThemeContext } from "../../context/ThemeContext";
 import star from "../../assets/star.png";
 import whiteStar from "../../assets/star-white.png";
 
-const Star = ({ styles }) => {
+const Star = ({ styles }: { styles: React.CSSProperties }) => {
     const { theme } = useContext(ThemeContext);
 
     return (

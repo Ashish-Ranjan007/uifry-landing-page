@@ -76,7 +76,7 @@ const Faq: React.FC = () => {
                         width: "48px",
                         top: "100px",
                         right: "300px",
-                        "z-index": "-999",
+                        zIndex: "-999",
                     }}
                 />
             </Box>

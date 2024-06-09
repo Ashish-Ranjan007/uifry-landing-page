@@ -20,7 +20,7 @@ const Outro: React.FC = () => {
                     position: "absolute",
                     top: "0",
                     right: "50px",
-                    "z-index": "-999",
+                    zIndex: "-999",
                     width: "48px",
                 }}
             />
@@ -29,7 +29,7 @@ const Outro: React.FC = () => {
                     position: "absolute",
                     top: "300px",
                     left: "50px",
-                    "z-index": "-999",
+                    zIndex: "-999",
                     width: "48px",
                 }}
             />
