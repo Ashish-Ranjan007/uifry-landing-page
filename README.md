@@ -1,6 +1,7 @@
 # Project Name: UIFry
 
 Welcome to UIFry! This is a React landing page.
+Live Site: https://uifry-react.vercel.app/
 
 ### Running the Project Locally
 
