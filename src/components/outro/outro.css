@@ -1,0 +1,131 @@
+.outro-image {
+    width: 100%;
+}
+
+.outro-elipse {
+    position: absolute;
+    width: 500px;
+    top: 0;
+    left: 0;
+    transform: translate(-10%, -10%);
+    z-index: -999;
+}
+
+.outro-star1 {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    z-index: -999;
+    width: 48px;
+}
+
+.outro-star2 {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    z-index: -999;
+    width: 48px;
+}
+
+.outro-cta {
+    background: #ffffff;
+    width: 180px;
+    height: 60px;
+    color: #000000;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    gap: 8px;
+    transition: all 300ms ease;
+}
+.outro-cta:hover {
+    background-color: rgb(231, 231, 231);
+}
+.outro-cta:active {
+    scale: 0.9;
+}
+
+.apple-icon {
+    width: 24px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .outro-cta {
+        width: 150px;
+        height: 50px;
+        padding: 8px;
+        gap: 4px;
+    }
+    .outro-cta p {
+        font-size: 12px;
+    }
+    .outro-cta img {
+        width: 16px;
+    }
+    .outro-elipse {
+        transform: translate(-10%, -10%);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .outro-cta {
+        width: 130px;
+        height: 40px;
+        padding: 8px;
+        gap: 4px;
+    }
+    .outro-cta p {
+        font-size: 12px;
+    }
+    .outro-cta img {
+        width: 16px;
+    }
+    .outro-elipse {
+        transform: translate(-15%, -15%);
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .outro-cta {
+        width: 120px;
+        height: 35px;
+        padding: 4px;
+        gap: 4px;
+    }
+    .outro-cta p {
+        font-size: 10px;
+    }
+    .outro-cta img {
+        width: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .outro-elipse {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .outro-cta {
+        width: 100px;
+        height: 25px;
+        padding: 2px;
+        gap: 2px;
+    }
+    .outro-cta p {
+        font-size: 8px;
+    }
+    .outro-cta img {
+        width: 8px;
+    }
+    .outro-elipse {
+        width: 200px;
+    }
+}

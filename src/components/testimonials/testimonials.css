@@ -1,0 +1,35 @@
+.testimonial-image1 {
+    width: 100%;
+}
+
+.testimonial-star {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.testimonial-elipse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+    width: 500px;
+}
+
+.testimonial-image2 {
+    width: 250px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .testimonial-elipse {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .testimonial-elipse {
+        width: 300px;
+    }
+}

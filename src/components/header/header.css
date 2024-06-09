@@ -1,0 +1,48 @@
+.download-button {
+    background: black;
+    width: 180px;
+    height: 60px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.download-button:hover {
+    opacity: 0.8;
+}
+.download-button:active {
+    scale: 0.95;
+}
+
+.menu-button,
+.toggle-theme {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 48px;
+}
+
+.menu-button-icon,
+.toggle-theme-icon {
+    width: 32px;
+    height: 32px;
+}
+.menu-button {
+    padding: 16px;
+}
+
+@media screen and (min-width: 900px) {
+    .menu-button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .download-button {
+        width: 100px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./assets/fonts/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf");
+}
+@font-face {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./assets/fonts/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf");
+}
+
+@font-face {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./assets/fonts/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf");
+}
+
+@font-face {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./assets/fonts/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf");
+}
+
+@font-face {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./assets/fonts/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none !important;
+}

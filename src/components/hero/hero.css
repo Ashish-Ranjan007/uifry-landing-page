@@ -1,0 +1,153 @@
+.get-started-button,
+.watch-video-button {
+    background: black;
+    width: 180px;
+    height: 60px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    font-weight: 600;
+    transition: all 300ms ease;
+}
+
+.get-started-button {
+    background: black;
+    color: white;
+}
+.watch-video-button {
+    border: 2px solid black;
+}
+.get-started-button:hover {
+    opacity: 0.8;
+}
+.get-started-button:active {
+    scale: 0.9;
+}
+
+.watch-video-button {
+    background: white;
+    color: black;
+    flex-direction: row-reverse;
+}
+.watch-video-button:hover {
+    background-color: rgb(231, 231, 231);
+}
+.watch-video-button:active {
+    scale: 0.9;
+    background-color: rgb(231, 231, 231);
+}
+
+.button-text {
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+.right-arrow-icon,
+.watch-video-icon {
+    width: 32px;
+}
+
+.hero-image1 {
+    width: 100%;
+}
+
+.hero-image2 {
+    width: 100%;
+}
+
+.star1 {
+    width: 48px;
+    position: absolute;
+    left: 30%;
+    top: 50px;
+}
+.star2 {
+    width: 48px;
+    position: absolute;
+    left: 100px;
+    top: 60%;
+}
+
+.elipse1 {
+    width: 450px;
+    position: absolute;
+    top: 0;
+    transform: translateY(-30%);
+    left: 10%;
+    z-index: -999;
+}
+.elipse2 {
+    width: 450px;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    z-index: -999;
+}
+
+@media only screen and (max-width: 1200px) {
+    .star2 {
+        left: 100px;
+        top: 60%;
+    }
+    .elipse2 {
+        top: 250px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .star2 {
+        left: 100px;
+        top: 55%;
+    }
+
+    .elipse2 {
+        top: 200px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .elipse1 {
+        width: 300px;
+        top: 5%;
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .elipse2 {
+        top: 0;
+        right: 0;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .watch-video-button,
+    .get-started-button {
+        width: 150px;
+        height: 40px;
+    }
+
+    .right-arrow-icon,
+    .watch-video-icon {
+        width: 24px;
+    }
+
+    .elipse1 {
+        width: 250px;
+        left: 30%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .elipse1 {
+        width: 200px;
+    }
+}

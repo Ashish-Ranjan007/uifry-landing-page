@@ -1,0 +1,55 @@
+.customization-image {
+    width: 100%;
+}
+
+.customization-icon {
+    width: 32px;
+}
+
+.customization-star1 {
+    position: absolute;
+    width: 48px;
+    top: 0;
+    right: 0;
+}
+.customization-star2 {
+    position: absolute;
+    width: 48px;
+    bottom: -150px;
+    right: 150px;
+}
+
+.customization-elipse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+    width: 500px;
+}
+
+@media screen and (max-width: 1200px) {
+    .customization-star2 {
+        bottom: -100px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .customization-elipse {
+        width: 400px;
+    }
+    .customization-star2 {
+        bottom: -75px;
+        right: 100px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .customization-elipse {
+        width: 300px;
+    }
+    .customization-star2 {
+        bottom: -75px;
+        right: 50px;
+    }
+}
